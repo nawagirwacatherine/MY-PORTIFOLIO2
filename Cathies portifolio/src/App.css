@@ -4,6 +4,27 @@
 }
 
 .app {
-
-  background-color: pink;
+ height: 100vh;
+ width: auto;
+  background-color: rgb(250, 233, 235);
 }
+
+.nav {
+  display: flex;
+  padding: 5px;
+ justify-content: center;
+
+}
+
+
+.nav-item {
+  background-color: rgba(0, 0, 0, 0.3);
+color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+  
+    border-radius: 5px;
+    
+  } 
