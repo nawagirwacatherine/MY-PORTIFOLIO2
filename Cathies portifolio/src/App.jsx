@@ -11,11 +11,25 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <nav className="nav">
+        {/* <nav className="nav">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about-me" className="nav-item">About Me</Link>
           <Link to="/projects" className="nav-item">Projects</Link>
           <Link to="/contacts" className="nav-item">Contacts</Link>
+        </nav> */}
+
+        <nav className='nav'>
+          {[
+            {to: "/", label:"Home"},
+            { to: "/ about-me", label:"About Me"},
+            { to: "projects", label: "Projects"},
+            { to: "/contacts", label:"Contacts"},
+          ]. map((link,index,arr)  => (
+            <span key ={link.to}>
+              <Link to= {link.to} className=" nav-item">{link.label}</Link>
+              {index < arr.length -1 && "|"}
+            </span>
+          ))}
         </nav>
 
         <Routes>

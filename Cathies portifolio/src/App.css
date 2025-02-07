@@ -6,25 +6,74 @@
 .app {
  height: 100vh;
  width: auto;
-  background-color: rgb(250, 233, 235);
+
 }
 
 .nav {
   display: flex;
-  padding: 5px;
- justify-content: center;
+  padding: 50px;
+  background-color: rgb(224, 220, 224);
+  justify-content: center;
+  height: 30px;
+  margin: 50px;
+
+
 
 }
 
 
 .nav-item {
-  background-color: rgba(0, 0, 0, 0.3);
-color: white;
+  
+color: rgb(171, 11, 139);
     text-decoration: none;
     padding: 10px;
-    font-size: 18px;
-    margin: 10px;
-  
-    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
     
   } 
+
+  .profile{
+    display: flex;
+    justify-content: center;
+    gap: 60px
+    ;
+  }
+
+  .image1{
+    
+    height: 300px;
+    width: 200px;
+    border-radius: 50px;
+  }
+
+  .intro{
+
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    color: rgb(171, 11, 139);
+    background-color: rgb(224, 220, 224);
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+
+  p {
+   padding: 20px;
+  }
+.intro2 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+  color: aliceblue;
+  background-color:  rgb(84, 44, 76);
+  font-size: 30px;
+  font-family: sans-serif;
+  gap: 20px;
+  justify-content: center;
+  border: 2px solid black;
+}
