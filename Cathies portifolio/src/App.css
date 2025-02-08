@@ -78,9 +78,18 @@ color: rgb(171, 11, 139);
 }
 
 .projects {
-  background-color:  rgb(84, 44, 76);
+  color:  rgb(171, 11, 139);
   margin: 5px;
   padding: 5px;
   height: 100px;
   width: 250px;
+}
+
+.image{
+  height: 100px;
+  width: 250px;
+}
+
+h1{
+  font-size: xx-small;
 }
