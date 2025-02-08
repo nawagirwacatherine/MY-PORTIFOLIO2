@@ -70,10 +70,17 @@ color: rgb(171, 11, 139);
   padding: 10px;
   height: 300px;
   color: aliceblue;
-  background-color:  rgb(84, 44, 76);
   font-size: 30px;
   font-family: sans-serif;
   gap: 20px;
   justify-content: center;
   border: 2px solid black;
+}
+
+.projects {
+  background-color:  rgb(84, 44, 76);
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 250px;
 }

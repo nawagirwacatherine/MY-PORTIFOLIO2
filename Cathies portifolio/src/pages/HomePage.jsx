@@ -21,13 +21,13 @@ function HomePage (){
 
         <div className="intro2">
           <div>
-          <div>Project1</div>
-          <div>Project2</div>
+          <div className="projects">Project1</div>
+          <div className="projects">Project2</div>
           </div>
           
           <div>
-          <div>Project3</div>
-          <div>Project4</div>
+          <div className="projects">Project3</div>
+          <div className="projects">Project4</div>
           </div>
 
       </div>
