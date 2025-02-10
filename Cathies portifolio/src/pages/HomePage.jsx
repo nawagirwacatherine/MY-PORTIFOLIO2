@@ -24,22 +24,28 @@ function HomePage (){
      
         </div>
 
-        <div className="intro2">
-          <div>
+        <div className="intro1">
+          <div  className="intro1-pro">
           <div className="projects"> <h1>Project1</h1>
+          <div>
           <img src={imagesProject1} alt="images" className="image" />
           </div>
+          </div>
           <div className="projects"> <h1>Project2</h1>
+          <div>
           <img src={imagesProject2} alt="images" className="image" />
           </div>
           </div>
+          </div>
           
-          <div>
+          <div  className="intro1-pro">
           <div className="projects"> <h1>Project3</h1>
-          <img src={imagesProject3} alt="images" className="image" />
+          <div><img src={imagesProject3} alt="images" className="image" /></div>
           </div>
           <div className="projects"> <h1>Project4</h1>
+          <div>
           <img src={imagesProject4} alt="images" className="image" />
+          </div>
           </div>
           </div>
 
@@ -48,6 +54,10 @@ function HomePage (){
       <div className="intro2">
 
       </div>
+
+      <div className="intro2">
+
+</div>
         </>
     )
 }
