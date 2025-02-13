@@ -31,6 +31,13 @@ color: rgb(171, 11, 139);
     justify-content: center;
     
   } 
+  .logo{
+    border-radius: 75px;
+    width: 75px; 
+    height: 75px;
+    margin-right: 20px;
+    align-self: self-start;
+  }
 
   .profile{
     display: flex;

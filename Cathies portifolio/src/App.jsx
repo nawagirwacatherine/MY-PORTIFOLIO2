@@ -1,5 +1,6 @@
 
 import './App.css';
+import imagesLogo from "./images/logo.webp";
 import HomePage from "./pages/HomePage";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
@@ -19,6 +20,7 @@ function App() {
         </nav> */}
 
         <nav className='nav'>
+          <img src={imagesLogo} alt="images" className="logo" />
           {[
             {to: "/", label:"Home"},
             { to: "/ about-me", label:"About Me"},
