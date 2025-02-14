@@ -52,7 +52,10 @@ function HomePage (){
       </div>
 
       <div className="intro2">
+       <h1>Below is a brief introduction about me</h1>
 
+       <p>My name is Nawagirwa Catherine a passionate frontend developer. <br/>I develop eastically appealing website which are responsive and i make sure they bring comfort into every users day today life.<br/> Iam passionate about solving world challenging problems which can 
+       bring change into peoples lives. </p>
       </div>
 
       <div className="intro2">
