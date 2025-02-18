@@ -12,7 +12,6 @@ import { FaLinkedin } from "react-icons/fa6";
 function HomePage (){
     return(
         <>
-
         <Link to = "/projects" className="cta-button">View my work</Link>
 
 <div  className= "project-grid">
@@ -23,7 +22,7 @@ function HomePage (){
         <div className="project">
             <h3>Restaurant Booking App</h3>
             <p>A modern restaurant websiten with an integrated booking system.</p>
-            <Link to="projects" className="view-more">See More</Link>
+            <Link to="about-me" className="view-more">See More</Link>
         </div>
 
         <div className="project">
@@ -44,7 +43,7 @@ function HomePage (){
 
 
       <div className="brief-intro">
-       <h2>Below is a brief introduction about me</h2>
+       <h2>Brief introduction about me</h2>
 
        <p>My name is Nawagirwa Catherine a passionate frontend developer. <br/>I develop eastically appealing website which are responsive and i make sure they bring comfort into every users day today life.<br/> Iam passionate about solving world challenging problems which 
        bring change into peoples lives. </p>

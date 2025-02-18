@@ -72,7 +72,7 @@
   }
 
   .intro1{
-justify-content: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
   }
@@ -80,11 +80,11 @@ justify-content: center;
  
 
 .brief-intro {
-font-size: larger;
   color: aliceblue;
   margin: 2px;
-  padding: 10px;
+  padding: 20px;
   background-color:  rgb(1, 8, 14);
+  
 }
 
 
@@ -92,8 +92,8 @@ font-size: larger;
 
 .cta-button{
   display : inline-block;
-  margin-top: 1rem;
-  padding: 10px 20px;
+  margin:3px;
+  padding:  10px;
   background: #007bff;
   color:white;
   border-radius: 5px;
