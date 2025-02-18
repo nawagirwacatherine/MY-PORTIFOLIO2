@@ -23,8 +23,8 @@ function App() {
           <img src={imagesLogo} alt="images" className="logo" />
           {[
             {to: "/", label:"Home"},
-            { to: "/ about-me", label:"About Me"},
-            { to: "projects", label: "Projects"},
+            { to: "/about-me", label:"About Me"},
+            { to: "/projects", label: "Projects"},
             { to: "/contacts", label:"Contacts"},
           ]. map((link,index,arr)  => (
             <span key ={link.to}>

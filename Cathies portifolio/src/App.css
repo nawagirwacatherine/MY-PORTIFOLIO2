@@ -12,7 +12,7 @@
 .nav {
   display: flex;
   padding: 50px;
-  background-color: rgb(224, 220, 224);
+  background-color: bisque;
   justify-content: center;
   height: 30px;
   margin: 50px;
@@ -76,51 +76,99 @@ justify-content: center;
     flex-direction: row;
   }
 
-  .intro1-pro{
-    background-image: url(images/health1.jpg);
  
-  }
 
 .brief-intro {
 font-size: larger;
   color: aliceblue;
   margin: 2px;
   padding: 10px;
-  background-color: rgb(171, 11, 139);
+  background-color:  rgb(1, 8, 14);
 }
 
-.projects {
-  color:  rgb(171, 11, 139);
-  margin: 5px;
-  padding: 5px;
-  height: 100px;
-  width: 250px;
 
-}
 
-.image{
-  height: 100px;
-  width: 250px;
+
+.cta-button{
+  display : inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: #007bff;
+  color: rgb(42, 56, 68);
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 h1 {
   font-size: xx-small;
 
 }
+/* 
+h2 {
+  align-self: center;
+} */
 
-.projects {
-  margin-top: 3rem;
+. project-grid{
+
+
 }
 
-.project-grid {
+.project {
+  margin: 10px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 8px;
+  color: rgb(78, 81, 81);
+  background-color: bisque;
+  box-shadow: 0px 4px 6px  rgba(135, 12, 12, 0.5);
+ justify-items: center;
+ 
+}
+
+
+.projectss{
+  padding: 5px;
+  margin: -5px;
+}
+.projects {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   gap: 20px;
+ 
+   
+
+}
+
+
+.view-more {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tech-stack {
+  margin-top: 3rem;
+  padding: 5px;
+  color: rgb(78, 81, 81) ;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.icons {
+  display : flex;
+  justify-content: center;
+  gap: 15px;
 }
 .footer{
-  height: 300px;
-  color: aliceblue;
+  height: 100px;
+  color:white;
   margin: 2px;
-  padding: 10px;
-  background-color: rgb(171, 11, 139);
+  padding: 40px;
+  background-color:   rgb(1, 8, 14);
+  display: flex;
+  flex-direction: column;
 }
