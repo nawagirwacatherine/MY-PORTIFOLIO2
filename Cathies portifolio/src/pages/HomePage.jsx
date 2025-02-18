@@ -34,24 +34,9 @@ function HomePage (){
     {/* </div> */}
 </section>
 </div>
-<div>
-<section className="tech-stack">
-<h2>Tech stack </h2>
-<div className="icons">
-    <h1>Html</h1>
-    < FaHtml5 className ='icon'  title ="HTML5"/>
-    <h1>Css</h1>
-    < FaCss3Alt className= "icon" title = "CSS3"/>
-    <h1>JavaScript</h1>
-    < FaJs className= "icon" title="JavaScript"/>
-    <h1>React</h1>
-    < FaReact className= "icon" title ="React"/>
-    <h1>Figma</h1>
-   < FaFigma className = "icon" title= "Figma"/>
-</div>
-</section>
 
-</div>
+
+
 
 
 
@@ -66,11 +51,29 @@ function HomePage (){
       </div>
 
       <div className="footer">
-      <div className="contact"><span className="contact" ><TbPhoneCall /></span>contact: 0751172007</div>
-      <FaWhatsapp />watapp: +256751172007 
-     <MdOutlineMail /> Email: cathynawagirwa@gmail.com
-     <FaLinkedin />Linkedin: Nawagirwa Catherine
+      <div className="contact"><span className="span1" ><TbPhoneCall /></span>contact: 0751172007</div>
+      <div className="contact"><span className="span2" ><FaWhatsapp /></span>watapp: +256751172007 </div>
+      <div className="contact"><span className="span3" > <MdOutlineMail /></span>Email: cathynawagirwa@gmail.com</div>
+      <div className="contact"><span className="span4" > <FaLinkedin /></span>Linkedin: Nawagirwa Catherine</div>
+
+
+<div className="tech-stack">
+<h2>Tech stack </h2>
+<div className="icons">
+    <h1>Html</h1>
+    < FaHtml5 className ='icon'  title ="HTML5"/>
+    <h1>Css</h1>
+    < FaCss3Alt className= "icon" title = "CSS3"/>
+    <h1>JavaScript</h1>
+    < FaJs className= "icon" title="JavaScript"/>
+    <h1>React</h1>
+    < FaReact className= "icon" title ="React"/>
+    <h1>Figma</h1>
+   < FaFigma className = "icon" title= "Figma"/>
 </div>
+</div>
+</div>
+
         </>
     )
 }
